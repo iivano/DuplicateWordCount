@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Charts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+    <div id="wrapper">
+      <p>Add text click "submit" and it will show you the duplicate word and count</p>
+        <div id="container-user-text">
+            <textarea id="user-text" placeholder="Add text here"></textarea>
+        </div>
+        <div id="container-submit">
+            <button id="submit">Submit</button>  
+        </div>
+        <div id="table">
+            <div id="table-container" style="overflow:scroll;height:400px;width:100%;overflow:auto">    
+                <table id="output">
+                    <thead>
+                        <tr>
+                            <th>Word</th>
+                            <th>Count</th>
+                        </tr>
+                    </thead>
+                    <tbody id="fillBody">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+        <script src="script.js"></script>
+    </body>
+</html>
